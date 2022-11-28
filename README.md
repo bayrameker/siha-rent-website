@@ -1,5 +1,7 @@
 # siha-rent-website
 
+![Alt text](screenshot/1.png?raw=true "one")
+
 Note: Railway was used for postgre sql in this project.
 
 1. Install the project dependencies with: pip install -r requirements.txt
