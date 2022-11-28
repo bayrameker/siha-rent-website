@@ -18,7 +18,7 @@ Siha add steps
 2. Then enter the Siha information
 3. Then click the add button in the listing menu
 4. Fill in the other information of the siha
-5. As a result, there are two steps, the first is to add a Siva and the second is to fill in the Siva listing information
+5. As a result, there are two steps, the first is to add a Siha and the second is to fill in the Siha listing information
 
 .env: 
 SECRET_KEY="w6rm%l&xim0ivll-li$u6fg8)6k8-$7uar^f#33ht5sutw8e!#"
