@@ -16,6 +16,11 @@
 
 Note: Railway was used for postgre sql in this project.
 
+            "Couldn't import Django. Are you sure it's installed and "
+            "available on your PYTHONPATH environment variable? Did you "
+            "forget to activate a virtual environment?"
+            
+
 1. Install the project dependencies with: pip install -r requirements.txt
 2. Now run the project with this command: python manage.py runserver 8080
 3. go to the site https://localhost:8080
