@@ -28,7 +28,7 @@
             <div class="form-row">
               <div class="col-md-4 mb-3">
                 <label class="sr-only">Keywords</label>
-                <input type="text" name="keywords" class="form-control" placeholder="Keyword (Company, Flight Time, etc)">
+                <input type="text" name="keywords" class="form-control" placeholder="Keyword ('Taktik' for example)">
               </div>
 
               <div class="col-md-4 mb-3">
@@ -105,7 +105,7 @@
                 <i class="fas fa-th-large"></i> Company: {{listing.company}}
               </div>
               <div class="col-6">
-                <i class="fas fa-car"></i> Garage: {{listing.altitude}}
+                 <i class="fas fa-th-large"></i> Altitude: {{listing.altitude}}
               </div>
             </div>
             <div class="row py-2 text-secondary">
@@ -119,12 +119,12 @@
             <hr>
             <div class="row py-2 text-secondary">
               <div class="col-12">
-                <i class="fas fa-th-large"></i> {{listing.siha}}
+                <i class="fas fa-th-large"></i> Company: {{listing.company}}
               </div>
             </div>
             <div class="row text-secondary pb-2">
               <div class="col-6">
-               <i class="fas fa-th-large"></i> {{listing.list_date|timesince}}
+               <i class="fas fa-th-large"></i> Listing Time: {{listing.list_date|timesince}}
               </div>
             </div>
             <hr>

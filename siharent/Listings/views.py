@@ -36,24 +36,30 @@ def Search(request):
         if keywords:
             queryset_list = queryset_list.filter(description__icontains=keywords)
 
-    # city
+    # company
     if 'company' in request.GET:
         company = request.GET['company']
         if company:
             queryset_list = queryset_list.filter(company__iexact=company)
+
+            # company
+            if 'country' in request.GET:
+                company = request.GET['company']
+                if company:
+                    queryset_list = queryset_list.filter(country__iexact=company)
 
     
     # flight_time
     if 'flight_time' in request.GET:
         bedrooms = request.GET['flight_time']
         if bedrooms:
-            queryset_list = queryset_list.filter(bedrooms__lte=bedrooms)
+            queryset_list = queryset_list.filter(flight_time__lte=bedrooms)
 
     # took_off
     if 'took_off' in request.GET:
         price = request.GET['took_off']
         if price:
-            queryset_list = queryset_list.filter(price__lte=price)
+            queryset_list = queryset_list.filter(took_off__lte=price)
 
 
 
