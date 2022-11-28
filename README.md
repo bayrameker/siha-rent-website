@@ -1,6 +1,6 @@
 # siha-rent-website
 
-![Screenshot](screenshot/1.png)
+![Screenshot](screenshot\1.png)
 
 Note: Railway was used for postgre sql in this project.
 
