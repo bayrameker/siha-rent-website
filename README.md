@@ -2,6 +2,18 @@
 
 ![Alt text](/siharent/screenshot/1.png "Test")
 
+![Alt text](/siharent/screenshot/2.png "Test")
+
+![Alt text](/siharent/screenshot/3.png "Test")
+
+![Alt text](/siharent/screenshot/4.png "Test")
+
+![Alt text](/siharent/screenshot/5.png "Test")
+
+![Alt text](/siharent/screenshot/6.png "Test")
+
+![Alt text](/siharent/screenshot/7.png "Test")
+
 Note: Railway was used for postgre sql in this project.
 
 1. Install the project dependencies with: pip install -r requirements.txt
